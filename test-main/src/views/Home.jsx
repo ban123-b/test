@@ -72,7 +72,13 @@ function Home() {
               onFinish={onFinish}
             >
               <Form.Item name="username">
-                <Input />
+                <Input 
+                 style={{
+                  height: 40,
+                  width:200,
+                }}
+                
+                />
               </Form.Item>
               <Form.Item>
                 <Button
